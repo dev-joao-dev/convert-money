@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css" />
+    <title>CodeClub Convert Money</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header-project">
+            <h1 id="tittle-convert-money">CodeClub Convert Money</h1>
+        </header>
+
+        <main>
+            <label class="label-select-convert">
+                Converter <b>de</b>
+                <select class="input-select-convert">
+                    <option>
+                        R$ Real brasileiro
+                    </option>
+                </select>
+            </label>
+
+            <label class="label-select-convert">
+                Converter <b>para</b>
+                <select class="input-select-convert" id="convert-currency">
+                    <option>US$ Dólar americano</option>
+                    <option>€ Euro</option>
+                    <option>Bitcoin</option>
+                </select>
+            </label>
+
+            <label class="label-value-convert">
+                Valor
+                <input placeholder="R$ 0,00" id="input-value-convert">
+            </label>
+
+            <button id="convert-money">Converter</button>
+
+            <section>
+                <div class="div-image-result">
+                    <img src="./ASSETS/brasil 2.png" alt="bandeira-brasil">
+                    <p class="coin-select">Real</p>
+                    <p class="converted-value" id="real-text-value">R$ 0,00</p>
+                </div>
+                <img src="./ASSETS/Vector.png" alt="seta" class="arrow-img">
+                <div class="div-image-result">
+                    <img id="currency-img" src="./ASSETS/estados-unidos (1) 1.png" alt="bandeira-pais-conversao"> 
+                    <p id="currency-name" class="coin-select">Dólar americano</p>
+                    <p class="converted-value" id="currency-text-value">US$ 0,00</p>
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+</body>
+    <script src="./scripts.js"></script>
+</html>
