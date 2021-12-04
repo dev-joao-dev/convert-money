@@ -97,8 +97,19 @@ body {
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
         outline: none;  
         font-size: 16px;
+        appearance: none;
         line-height: 18px;  
         font-weight: 700;
+    }
+
+    input[type=number]::-webkit-inner-spin-button { 
+        -webkit-appearance: none;
+        
+    }
+    input[type=number] { 
+       -moz-appearance: textfield;
+       appearance: textfield;
+    
     }
 
     button {

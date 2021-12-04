@@ -4,7 +4,7 @@
 <img src="./ASSETS/Convert Money.png" alt="Converte money image">
 </a>
 
-> Projeto de lista de tarefas, feito com JavaScript, CSS, HTML, meu primeiro contato com programação para acessar clique na imagem ou acesse por aqui:https://dev-joao-dev.github.io/convert-money/
+> Projeto de conversão de moedas, nele os números de conversão não são os atuais, são meramente ilustrativos, para acessar clique na imagem ou acesse por aqui:https://dev-joao-dev.github.io/convert-money/
 ### Funções
 
 :
